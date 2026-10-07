@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="theme-color" content="#101a30">
+ <meta name="description" content="Study Fundamentals of Data Engineering with 354 simple-English lessons, 26 interactive diagrams, full-topic search, and page links to your own original PDF.">
+ <title>Data Engineering · A Visual Study Guide</title>
+ <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23101a30'/%3E%3Cpath d='M8 9h7v6h9v8H8z' fill='none' stroke='%234be4c5' stroke-width='3'/%3E%3Ccircle cx='8' cy='9' r='3' fill='%23f4cb4a'/%3E%3C/svg%3E">
+ <link rel="stylesheet" href="styles.css">
+ <script src="book-index.js" defer></script>
+ <script src="chapter-1.js" defer></script><script src="chapter-2.js" defer></script><script src="chapter-3.js" defer></script><script src="chapter-4.js" defer></script><script src="chapter-5.js" defer></script><script src="chapter-6.js" defer></script><script src="chapter-7.js" defer></script><script src="chapter-8.js" defer></script><script src="chapter-9.js" defer></script><script src="chapter-10.js" defer></script><script src="chapter-11.js" defer></script><script src="chapter-12.js" defer></script><script src="chapter-13.js" defer></script>
+ <script src="app.js" defer></script><script src="study.js" defer></script>
+</head>
+<body>
+ <noscript><p class="no-script">Enable JavaScript to use the lessons, diagrams, and source reader.</p></noscript>
+ <a class="skip" href="#main">Skip to the lesson</a>
+ <aside class="sidebar" aria-label="Book chapters">
+  <div class="brand"><span class="brand-mark" aria-hidden="true">DE</span><span>DATA ENGINEERING<small>A VISUAL STUDY GUIDE</small></span></div>
+  <div class="book-caption">Fundamentals of Data Engineering<br><span>Joe Reis &amp; Matt Housley · 2022</span></div>
+  <nav id="chapters" aria-label="Select a chapter"></nav>
+  <button class="source-button" data-action="sources">Book &amp; language notes</button>
+  <div class="side-foot">Read. Explore. Check the source.</div>
+ </aside>
+ <main id="main" tabindex="-1">
+  <header class="topbar"><div><span class="tiny">STUDY WORKSPACE</span><span class="top-sub">One idea at a time.</span></div><button class="mobile-menu" data-action="menu" aria-expanded="false" aria-controls="chapters">Chapters</button><button class="map-link" data-scene="lifecycle" data-study-view="diagram">Open the main map</button></header>
+  <section class="workspace" aria-label="Interactive lesson">
+   <div class="lesson-heading"><div><div id="eyebrow" class="eyebrow"></div><h1 id="title"></h1></div><div class="lesson-count" id="lesson-count"></div></div>
+   <nav id="study-modes" class="study-modes" aria-label="Study view"><button data-study-view="diagram" aria-current="true">Diagram + lesson</button><button data-study-view="reader" aria-current="false">Read this chapter</button><button data-study-view="source" aria-current="false">Original pages</button></nav>
+   <nav id="lesson-tabs" class="lesson-tabs" aria-label="Chapter diagrams"></nav>
+   <div id="scene" class="scene"></div>
+   <section id="diagram-lesson" class="diagram-lesson" aria-label="Detailed explanation"></section>
+   <section id="chapter-reader" hidden aria-label="Chapter study reader"></section>
+   <section id="source-reader" hidden aria-label="Original book pages"></section>
+   <div class="bottom-row"><span id="reference" class="reference"></span><div class="next-controls"><button id="previous" data-action="previous" aria-label="Previous diagram">Previous</button><button id="next" data-action="next" class="primary">Next diagram</button></div></div>
+  </section>
+ </main>
+ <dialog id="notes" aria-labelledby="notes-title"><div class="dialog-top"><h2 id="notes-title"></h2><button data-action="close-notes" aria-label="Close notes">Close</button></div><div id="notes-body"></div></dialog>
+ <div id="status" class="sr-only" aria-live="polite"></div>
+</body>
+</html>
